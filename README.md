@@ -1,4 +1,4 @@
-Mozaik && VG web things Plugin
+Mozaik & VG web things Plugin
 =====
 
 Functions that don't belong to the theme
