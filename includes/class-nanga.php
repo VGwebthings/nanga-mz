@@ -43,7 +43,6 @@ class Nanga {
         $this->loader->add_action( 'plugins_loaded', $plugin_shared, 'features_json_api' );
         $this->loader->add_action( 'plugins_loaded', $plugin_shared, 'features_wpml' );
         $this->loader->add_filter( 'heartbeat_settings', $plugin_shared, 'heartbeat' );
-        $this->loader->add_filter( 'request', $plugin_shared, 'empty_search' );
     }
 
     public function get_version() {

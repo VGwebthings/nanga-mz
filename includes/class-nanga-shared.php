@@ -121,14 +121,6 @@ class Nanga_Shared {
         }
     }
 
-    public function empty_search( $query_vars ) {
-        if ( isset( $_GET['s'] ) && empty( $_GET['s'] ) ) {
-            $query_vars['s'] = 'empty';
-        }
-
-        return $query_vars;
-    }
-
     public function heartbeat( $settings ) {
         $settings['interval'] = 15;
 
